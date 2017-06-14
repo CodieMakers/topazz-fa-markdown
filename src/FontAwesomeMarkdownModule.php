@@ -12,6 +12,22 @@ class FontAwesomeMarkdownModule extends Module {
         return true;
     }
 
+    public function hasTemplates(): bool {
+        return false;
+    }
+
+    public function getTemplateDir(): string {
+        return "";
+    }
+
+    public function hasConfig(): bool {
+        return false;
+    }
+
+    public function getConfigFilename(): string {
+        return "";
+    }
+
     public function run() {
         $markdown = $this->container->markdown;
         $markdown->addExtension(new FontAwesomeMarkdownExtension());
