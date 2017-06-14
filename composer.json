@@ -1,0 +1,14 @@
+{
+    "name": "topazz/fa-markdown",
+    "description": "Simple Markdown extension for Font Awesome parsing in Topazz CMS",
+    "license": "MIT",
+    "type": "topazz-module",
+    "autoload": {
+        "psr-4": {
+            "Topazz\\Module\\FontAwesomeMarkdown\\": "src/"
+        }
+    },
+    "require": {
+        "topazz/topazz": "^1.0.0"
+    }
+}
