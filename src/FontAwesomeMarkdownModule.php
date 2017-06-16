@@ -6,7 +6,7 @@ use Topazz\Module\Module;
 
 class FontAwesomeMarkdownModule extends Module {
 
-    protected $name = "font-awesome-markdown";
+    protected $name = "fa-markdown";
 
     public function isNeeded(): bool {
         return true;
